@@ -1,0 +1,178 @@
+body
+{
+     font-family:"montserrat",sans-serif;
+     font-weight:400;
+     text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family:"montserrat",sans-serif;
+    font-weight:800;
+}
+p
+{
+    color:#8f8f8f;
+}
+.container-fluid
+{
+    padding:7% 15%;
+}
+
+/* HEADINGS */
+.main-heading
+{
+    font-family:"montserrat",sans-serif;
+    font-weight:900;
+    font-size:3.5rem;
+    line-height:1.5;  
+}
+.section-heading
+{
+    line-height:1.5;
+    font-size:3rem;
+}
+
+/* SECTIONS */
+.colored-section
+{
+    background-color:#ff4c68;
+    color:#fff;
+}
+.white-section
+{
+    background-color:#fff;
+}
+
+/* TITLE-SECTION */
+#title .container-fluid
+{
+    padding:3% 15% 7%;
+    text-align:left;
+}
+.navbar-brand
+{
+    font-family:"ubuntu";
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.navbar
+{
+    padding:0 0 4.5rem;
+}
+.nav-item
+{
+    padding:0 18px;
+}
+.nav-link
+{
+    font-family:"montserrat",sans-serif;
+    font-weight:300;
+    font-size:1.2rem;
+}
+.download-button
+{
+    margin:5% 3% 5% 0;
+}
+.title-img
+{
+    width:60%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+.title-div
+{
+    position:relative;              
+}
+
+
+/* FEATURE-SECTION */
+#features
+{
+    position:relative;
+    z-index:1;
+}
+.feature-heading
+{
+    font-size:1.5rem;
+}
+.feature-box
+{
+   padding:5%;
+}
+.feature-icon
+{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+.feature-icon:hover
+{
+    color:#ff4c68;
+}
+
+/* TESTIMONIAL-SECTION */
+#testimonials
+{
+    background-color:#ef8172;
+}
+.testimonial-text
+{
+    line-height:1.5;
+    font-size:3rem;
+}
+.testimonial-img
+{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+/* PRESS-SECTION */
+#press
+{
+    background-color:#ef8172;
+    padding-bottom:3%;
+}
+.press-img
+{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* PRICING-SECTION */
+#pricing
+{
+    padding:100px;
+}
+.pricing-text
+{
+    line-height:1.5;
+    font-size:3rem;
+}
+.pricing-column
+{
+    padding:3% 2%;
+}
+
+/* CALL TO ACTION-SECTION */
+
+/* FOOTER-SECTION */
+.social-icon
+{
+    margin:20px 10px;
+}
+
+/* MEDIA QUERY */
+@media (max-width:1028px)
+{
+    .title-img
+    {
+        position:static;
+        transform:rotate(0);
+    }
+    #title
+    {
+        text-align:center;
+    }
+}
